@@ -1,0 +1,30 @@
+boost::format("writing %1%,  x=%2% : %3%-th try") % "toto" % 40.23 % 50; LIBRARY "mql4j-java"
+EXPORTS
+	javaStart
+	javaStop
+	javaStatus
+	execOnInit
+	initRates
+	setRatesSize
+	execOnDeinit
+	execOnTick
+	execOnTimer
+	isExecutingOnInit
+	isExecutingOnTick
+	isExecutingOnTimer
+	isExecutingOnDeinit
+	isCommandManagerReady
+	isCommandWaiting
+	getCommandId
+	getCommandName
+	getCommandParams
+	setBoolCommandResponse
+	setDoubleCommandResponse
+	setIntCommandResponse
+	setStringCommandResponse
+	setVoidCommandResponse
+	setLongCommandResponse
+	setDateTimeCommandResponse
+	setEnumCommandResponse
+	commandLock
+	commandUnlock

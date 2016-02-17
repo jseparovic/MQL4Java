@@ -1,0 +1,39 @@
+*.class
+
+# Generated logs
+*.log
+
+# Temporary helper scripts
+*.sh
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+VS/Debug/
+VS/Release/
+VS/.vs/
+VS/ipch/
+VS/mql4j-java/Debug/
+VS/mql4j-common/Debug/
+VS/mql4j-util/Debug/
+VS/mql4j-java/mql4j-java.vcxproj.user
+VS/mql4j-common/mql4j-common.vcxproj.user
+VS/mql4j-util/mql4j-util.vcxproj.user
+VS/packages/
+VS/mql4j-java/Release
+VS/mql4j-util/Release
+VS/mql4j-common/Release
+VS/mql4j.sdf
+
+.gradle/
+.idea/
+*.iml
+build/
